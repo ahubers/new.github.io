@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ahubers
 
-github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+artifacts:
+  - iaFP/ROmega-ICFP23-artifact/
+  - astump/dc-recursion-examples/
+  - iaFP/HM-in-Agda/
+  - iaFP/ghc/

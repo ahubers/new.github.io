@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 5
 ---
+## As Teaching Assistant
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+- CS:3820–Programming Language Concepts, The University of Iowa. Fall 2022
+- CS:3820–Programming Language Concepts, The University of Iowa. Fall 2021
+- CS:3820–Programming Language Concepts, The University of Iowa. Spring 2021
 
-Organize your courses by years, topics, or universities, however you like!
+## As Co-Instructor
+
+- STA:223–Introduction to Data Science, Cornell College. Fall 2020. Co-instructed with Ann
+Cannon

@@ -2,25 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: me.jpg
+  image_circular: true
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>The University of Iowa</p>
+    <p>14 MacLean Hall</p>
+    <p>Iowa City, IA 52242</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a doctoral candidate in Computer Science at the University of Iowa, where I'm a
+member of the [Computational Logic Center](https://clc.cs.uiowa.edu/site/). I
+like (functional) programming languages, semantics, and type theory.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+My active research interest is in expressing [extensible data
+types](https://arxiv.org/abs/2307.08759) using [row
+types](https://dl.acm.org/doi/10.1145/3290325) (with Dr. J. Garrett Morris,
+Co-Advisor). My current work is in expanding the expressivity of
+[System Rω](https://arxiv.org/abs/2307.08759), a higher-order row calculus with
+label-generic combinators.
+
+I am also very interested in:
+
+- various applications of row type systems, e.g. [session types](https://homepages.inf.ed.ac.uk/slindley/papers/fst-extended.pdf), and [algebraic effects & handlers](https://dl.acm.org/doi/10.1145/2976022.2976033);
+- language mechanization in Agda, by way of both [shallow
+embeddings](https://github.com/IaFP/ROmega-ICFP23) (with denotational semantics)
+and [deep embeddings](https://github.com/IaFP/System-F-to-R-Omega/) (with operational semantics);
+- and using [Mendler-style recursion schemes](https://github.com/astump/dc-recursion-examples) to enforce *type-based* termination checking in total languages (e.g. [Coq](https://dl.acm.org/doi/10.1145/3571196)).
+
